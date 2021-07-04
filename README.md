@@ -1,5 +1,5 @@
 # SpringBootTutorial
-- 사실 듀토리얼보다 로그에 가깝다.
+- 사실 듀토리얼보다 기록에 가깝다.
 
 ## Settings
 
