@@ -18,7 +18,7 @@
 - ResponseEntity
 	- **RestController**는 별도의 **View를 제공하지 않는 형태로 서비스를 실행**하기 때문에, 때로는 결과데이터가 예외적인 상황에서 문제가 발생할 수 있다.
 	- ResponseEntity는 **개발자가 직접 결과 데이터와 HTTP 상태 코드를 직접 제어할 수 있는 클래스**로 개발자는 **404나 500같은 HTTP 상태 코드를 전송하고 싶은 데이터와 함께 전송**할수 있기 때문에 좀더 세밀한 제어가 필요한 경우 사용
-	- 
+	- [HTTP 상태 코드 - HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
 - spring boot는 `src/main/resources` 내의 `[application.properties](http://application.properties)` 또는 `application.yml` 파일을 프로퍼티 파일로 자동으로 인식
 
 ## VSCode Settings
