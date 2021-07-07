@@ -44,9 +44,9 @@ spring.thymleaf.cache=false
 - Extension → Java Extension, Spring Boot Extension Pack, Jetty for Java, Lombok Annotations Support for VS Code 설치
 - F1 누르고 Spring Initializr for Maven 선택하여 새 프로젝트 생성
 
-
+### URL응답 테스트
 <details>
-<summary> URI 응답 테스느 </summary>
+<summary> 더보기 </summary>
 
 <p>
 	
