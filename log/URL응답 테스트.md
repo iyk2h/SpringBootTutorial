@@ -9,7 +9,7 @@
 
 ### http://127.0.0.1:8080/mCtl/success 
 
-![image-20210710131417107](/Users/youngkyoonim/SpringBootTutorial/images/image-20210710131417107.png)
+![image-20210710131417107](../images/image-20210710131417107.png)
 
 ResponseEntity의 <>는 받는 자료형을 설정한다.
 
@@ -31,15 +31,42 @@ return 에서 HttpStatus.OK는 http상태 200번 코드를 뜻한다. 자세한 
 	        return new ResponseEntity<>(message, HttpStatus.INTERNAL_SERVER_ERROR);
 	    }
 	```
-	
 
 ### http://127.0.0.1:8080/mCtl/serverError
 
-![image-20210710132342777](/Users/youngkyoonim/SpringBootTutorial/images/image-20210710132342777.png)
+![image-20210710132342777](../images/image-20210710132342777.png)
 
 메세지 전송은 json 형태로 전송된다. 
 
+- /header
 
+```javascript
+    @GetMapping("/header")
+    public ResponseEntity<?> header() {
+        MultiValueMap<String, String> header = new LinkedMultiValueMap<>();
+        header.add("AUTHCODE","xxxxxxx");
+        header.add("TOKEN","xxxxxx");
+        return new ResponseEntity<>(header, HttpStatus.ACCEPTED);
+    }
+```
+
+### http://127.0.0.1:8080/mCtl/header
+
+![image-20210710135934744](../images/image-20210710135934744.png)
+
+- 전체 코드
+
+```xml
+<!--구조-->
+src
+└─── main
+     ├─── java.com.example.demo
+     │    ├─── DemoApplication.java
+     │    ├─── controller
+     │    ├─── Message
+     └─── resource
+          └─── application.properties
+```
 
 
 
