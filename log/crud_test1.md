@@ -87,6 +87,8 @@ public class UserRepositoryTests extends JpatestApplicationTests{
 }
 ```
 
+extends JpatestApplicationTests 부분에서 오류가 발생한다.. 다시 시도해 보면서 이해해야겠다. 아직 자바를 잘 모르기 때문에 이런 부분에서 오류를 못 잡는 것 같다
+
 ```java
 package com.example.jpatest;
 
