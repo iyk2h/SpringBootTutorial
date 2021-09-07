@@ -46,4 +46,4 @@ spring.thymleaf.cache=false
 
 
 
-### [응답 테스트 Log](./tree/master/log)
+### [응답 테스트 Log](https://github.com/iyk2h/SpringBootTutorial/tree/master/log)
