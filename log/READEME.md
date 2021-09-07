@@ -1,6 +1,6 @@
 # Log
 
-[ToDoList](../../../blob/master/log/ToDOList.md)
+[ToDoList](../../../blob/master/log/ToDoList.md)
 
 [crud_test1](../../../blob/master/log/crud_test1.md)
 
