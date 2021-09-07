@@ -46,4 +46,4 @@ spring.thymleaf.cache=false
 
 
 
-### [URL응답 테스트](./log/URL응답 테스트.md)
+### [응답 테스트 Log](./tree/master/log)
